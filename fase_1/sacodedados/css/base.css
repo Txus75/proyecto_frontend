@@ -1,0 +1,203 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*Reset y valores generales*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #ffffcc;
+	color: #404040;
+	font: 16px/1.6 'Roboto', sans-serif;
+}
+/*Contenido*/
+.container {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+/*HEADER*/
+header {
+	background-color: #4B0082;
+	color: #ffffcc;
+	height: 215px;
+	padding-top: 1em;
+}
+header img {
+	float: left;
+	margin-right: 120px;
+	border-radius: 15px;
+}
+h1 {
+	padding-top: 25px;
+}
+h1 span {
+	font-size: 2em;
+}
+/*NAV*/
+nav {
+	background-color: #4B0082;
+	color: #ffffcc;
+	height: 83px;
+	position: relative;
+	z-index: 1;
+}
+nav a {
+	text-decoration: none;
+	color: #ffffcc;
+}
+#functions_right {
+	padding: 0 0.6em;
+	text-align: right;
+}
+#functions_right a:hover {
+	text-decoration: underline;
+}
+#float_nav, #float_cart {
+	display: inline-block;
+}
+#float_cart {
+	float: right;
+	margin-top: 1.2em;
+}
+#shopping_cart {
+	padding: 0.5em;
+	border-radius: 15px;
+	border: #ffffcc solid 2px;
+	background-color: #8B0000;
+}
+#shopping_cart:hover {
+	background-color: #2E8B57;
+}
+nav ul {
+	display: flex;
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	margin-top: 0.2em;
+	padding: 0.4em 0.8em;
+	display: block;
+	font-size: 1.4em;
+}
+nav ul li:hover a, nav ul li a:hover {
+	background-color: #ffffcc;
+	color: #404040;
+}
+nav .fas {
+	margin-right: 0.6em;
+}
+.float_list {
+	display: none;
+	border: 1px solid #404040;
+	background-color: #ffffcc;
+}
+.float_list li {
+	display: block;
+}
+.float_list li a {
+	margin: 0;
+	padding-left: 0.8em;
+	font-size: 1em;
+	color: #404040;
+}
+li a:hover + .float_list, .float_list:hover {
+	display: block;
+}
+.float_list hr{
+	margin: 0 1em;
+}
+.float_list li a:hover {
+	text-decoration: underline;
+	padding-left: 1em;
+}
+/*SECTION*/
+section {
+	position: relative;
+	z-index: 0;
+}
+section h2, section p, section form, section .row {
+	margin: 1em 0;
+}
+section h3 {
+	text-align: center;
+	font-size: 2em;
+}
+section form div {
+	display: inline-block;
+}
+section #search {
+	float: right;
+}
+section #search a {
+	text-decoration: none;
+	color: #404040;
+}
+section p, section label, section select, section input {
+	font-size: 1.2em;
+}
+section .row {
+	text-align: center;
+}
+section .row .column {
+	display: inline-block;
+	width: 24%;
+	text-align: left;
+	padding: 2.2em;
+}
+section .row .column img {
+	width: 100%;
+	max-width: 210px;
+	max-height: 268px;
+}
+section .row .column a b {
+	display: block;
+	height: 55px;
+}
+.column p {
+	margin: 0.2em 0;
+}
+.column a {
+	text-decoration: none;
+	color: #404040;
+	font-size: 1.2em;
+}
+.column .right {
+	text-align: right;
+}
+a.buy_product {
+	padding: 0.2em 0.4em;
+	border-radius: 15px;
+	border: #ffffcc solid 2px;
+	background-color: #8B0000;
+	color: #ffffcc;
+}
+a.buy_product:hover {
+	background-color: #2E8B57;
+}
+#pager {
+	text-align: center;
+	font-size: 1.6em;
+	color: #4B0082;
+}
+section p a {
+	color: #4B0082;
+	margin: 0 0.4em;
+}
+/*FOOTER*/
+footer {
+	background-color: #4B0082;
+	color: #ffffcc;
+	padding-top: 0.4em;
+	text-align: center;
+}
+footer p {
+	margin: 1em 0;
+}
+footer a {
+	margin: 0 0.6em;
+}

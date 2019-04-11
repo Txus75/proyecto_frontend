@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Tienda online de juegos de rol de editoriales como Nosolorol, Holocubierta, Edge, HT Publishers y juegos míticos como D&D, Cthulhu, Hitos, Fate, Savage Worlds, Vampiro, Mundo de Tinieblas.">
+		<meta name="author" content="Txus">
+		<link rel="icon" href="imagenes/icon.png">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<title>Juegos de Rol | Tienda Online | Saco de Dados</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/base.css">
+		<!--
+		<script src="js/scripts.js"></script>
+		-->
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<img src="imagenes/dadologo.jpg" alt="Logotipo de Saco de Dados" title="Saco de Dados">
+				<H1><span>SACO DE DADOS</span><br>
+				Tu tienda online de juegos de rol.</H1>
+			</div>
+		</header>
+		<nav>
+			<div class="container">
+				<div id="functions_right">
+					<a href="#" title="Identificate"><i class="fas fa-user-check"></i>Identificate</a>
+					<span> | </span>
+					<a href="#" title="Hazte una cuenta"><i class="fas fa-user-plus"></i>Hazte una cuenta</a>
+				</div>
+				<div id="float_nav">
+					<ul>
+						<li><a href="#" title="Novedades">Novedades</a></li>
+						<li><a href="#" title="Ofertas">Ofertas</a></li>
+						<li><a href="#" title="Los más vendidos">Los más vendidos</a></li>
+						<li>
+							<a href="#" title="Editoriales">Editoriales</a>
+							<ul class="float_list">
+								<li><a href="#" title="Edge">- Edge</a></li>
+								<li><a href="#" title="Holocubierta">- Holocubierta</a></li>
+								<li><a href="#" title="HT Publishers">- HT Publishers</a></li>
+								<li><a href="#" title="Nosolorol">- Nosolorol</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" title="Generos">Generos</a>
+							<ul class="float_list">
+								<li><a href="#" title="Ciencia Ficción">- Ciencia<br>Ficción</a></li>
+								<li><a href="#" title="Cthulhu">- Cthulhu</a></li>
+								<li><a href="#" title="D&D">- D&D</a></li>
+								<li><a href="#" title="Detectives">- Detectives</a></li>
+								<li><a href="#" title="Infantiles">- Infantiles</a></li>
+								<li><a href="#" title="Medieval  Fantastico">- Medieval<br>Fantastico</a></li>
+								<li><a href="#" title="Mundo de Tinieblas">- Mundo de<br>Tinieblas</a></li>
+								<li><a href="#" title="Terror">- Terror</a></li>
+							</ul>
+						</li>
+						<li><a href="#" title="Quienes somos">Quienes somos</a></li>
+					</ul>
+				</div>
+				<div id="float_cart">
+					<a href="#" title="Ir al carrito" id="shopping_cart"><i class="fas fa-shopping-cart"></i>Ir al carrito</a>
+				</div>
+			</div>
+		</nav>
+		<section class="container">
+			<h2>¡Bienvenido a tu tienda de Rol Online!</h2>
+			<p>Esperamos que encuentres lo que estás buscando, y si no es así, no dudes en ponerte en contacto con nosotros.</p>
+			<p>Si tienes tiempo, pasate por nuestras secciones de <a href="#" title="Novedades">Novedades</a>, <a href="#" title="Ofertas">Ofertas</a> y <a href="#" title="Los más vendidos">Los más vendidos</a>, donde quizas encuentres nuevo alimento para tu imaginación.</p>
+			<h3>Listado de juegos:</h3>
+			<form>
+				<div>
+					<label for="order_by">Ordenado por: </label>
+					<select id="order_by" name="order_by">
+						<option value="a_z">De la A a la Z</option>
+						<option value="z__a">De la Z a la A</option>
+						<option value="date">Los más recientes</option>
+						<option value="cheap">Los más baratos</option>
+						<option value="expensive">Los más caros</option>
+					</select>
+				</div>
+				<div id="search">
+					<a href="#">Buscar <i class="fas fa-search"></i></a>
+					<input type="search" name="search">
+				</div>
+			</form>
+			<div class="row">
+				<div class="column">
+					<a href="#">
+						<img src="imagenes/covers/aquelarre_breviarium.jpg" alt="Portada de Aquelarre, Breviarium" title="Aquelarre, Breviarium">
+						<b>Aquelarre, Breviarium</b>
+					</a>
+					<p>Precio: 14,99€</p>
+					<div class="right">
+						<a href="#" class="buy_product">Añadir <i class="fas fa-cart-plus"></i></a>
+					</div>
+				</div>
+				<div class="column">
+					<a href="#">
+						<img src="imagenes/covers/zombie.png" alt="Portada de Zombie, AFMBE" title="Zombie, AFMBE">
+						<b>Zombie, AFMBE</b>
+					</a>
+					<p>Precio: 34,95€</p>
+					<div class="right">
+						<a href="#" class="buy_product">Añadir <i class="fas fa-cart-plus"></i></a>
+					</div>
+				</div>
+				<div class="column">
+					<a href="#">
+						<img src="imagenes/covers/DD_5_manual_del_jugador.png" alt="Portada de D&D 5, Manual del Jugador" title="D&D 5, Manual del Jugador">
+						<b>D&D 5, Manual del Jugador</b>
+					</a>
+					<p>Precio: 49,99€</p>
+					<div class="right">
+						<a href="#" class="buy_product">Añadir <i class="fas fa-cart-plus"></i></a>
+					</div>
+				</div>
+				<div class="column">
+					<a href="#">
+						<img src="imagenes/covers/DD_5_guía_del_dungeon_master.png" alt="Portada de D&D 5, Guia del Dungeon Master" title="D&D 5, Guia del Dungeon Master">
+						<b>D&D 5, Guia del Dungeon Master</b>
+					</a>
+					<p>Precio: 49,99€</p>
+					<div class="right">
+						<a href="#" class="buy_product">Añadir <i class="fas fa-cart-plus"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<a href="#">
+						<img src="imagenes/covers/DD_5_monster_manual.png" alt="Portada de D&D 5, Monster Manual" title="D&D 5, Monster Manual">
+						<b>D&D 5, Monster Manual</b>
+					</a>
+					<p>Precio: 49,99€</p>
+					<div class="right">
+						<a href="#" class="buy_product">Añadir <i class="fas fa-cart-plus"></i></a>
+					</div>
+				</div>
+				<div class="column">
+					<a href="#">
+						<img src="imagenes/covers/dracs.jpg" alt="Portada de Dracs" title="Dracs">
+						<b>Dracs</b>
+					</a>
+					<p>Precio: 37,99€</p>
+					<div class="right">
+						<a href="#" class="buy_product">Añadir <i class="fas fa-cart-plus"></i></a>
+					</div>
+				</div>
+				<div class="column">
+					<a href="#">
+						<img src="imagenes/covers/el_rastro_de_cthlhu.png" alt="Portada de El Rastro de Cthulhu" title="El Rastro de Cthulhu">
+						<b>El Rastro de Cthulhu</b>
+					</a>
+					<p>Precio: 29,99€</p>
+					<div class="right">
+						<a href="#" class="buy_product">Añadir <i class="fas fa-cart-plus"></i></a>
+					</div>
+				</div>
+				<div class="column">
+					<a href="#">
+						<img src="imagenes/covers/first_contact.png" alt="Portada de First Contact" title="First Contact">
+						<b>First Contact</b>
+					</a>
+					<p>Precio: 44,95€</p>
+					<div class="right">
+						<a href="#" class="buy_product">Añadir <i class="fas fa-cart-plus"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<a href="#">
+						<img src="imagenes/covers/pequenos_detectives_de_monstruos.jpg" alt="Portada de Pequeños Detectives de Monstruos" title="Pequeños Detectives de Monstruos">
+						<b>Pequeños Detectives de Monstruos</b>
+					</a>
+					<p>Precio: 24,99€</p>
+					<div class="right">
+						<a href="#" class="buy_product">Añadir <i class="fas fa-cart-plus"></i></a>
+					</div>
+				</div>
+				<div class="column">
+					<a href="#">
+						<img src="imagenes/covers/savage_worlds.jpg" alt="Portada de Savage Worlds" title="Savage Worlds">
+						<b>Savage Worlds</b>
+					</a>
+					<p>Precio: 19,95€</p>
+					<div class="right">
+						<a href="#" class="buy_product">Añadir <i class="fas fa-cart-plus"></i></a>
+					</div>
+				</div>
+				<div class="column">
+					<a href="#">
+						<img src="imagenes/covers/star_trek.png" alt="Portada de Star Trek" title="Star Trek">
+						<b>Star Trek</b>
+					</a>
+					<p>Precio: 54,95€</p>
+					<div class="right">
+						<a href="#" class="buy_product">Añadir <i class="fas fa-cart-plus"></i></a>
+					</div>
+				</div>
+				<div class="column">
+					<a href="#">
+						<img src="imagenes/covers/vampiro_v20.jpg" alt="Portada de Vampiro, 20 Aniversario" title="Vampiro, 20 Aniversario">
+						<b>Vampiro, 20 Aniversario</b>
+					</a>
+					<p>Precio: 49,99€</p>
+					<div class="right">
+						<a href="#" class="buy_product">Añadir <i class="fas fa-cart-plus"></i></a>
+					</div>
+				</div>
+			</div>
+			<p id="pager"><a href="#"><i class="fas fa-angle-double-left"></i></a> <a href="#"><i class="fas fa-angle-left"></i></a> Página 1 / XX <a href="#"><i class="fas fa-angle-right"></i></a> <a href="#"><i class="fas fa-angle-double-right"></i></a></p>
+		</section>
+		<footer>
+			<div class="container">
+				<p>Visitanos en las redes sociales</p>
+				<p><a href="#"><img src="imagenes/socials/facebook.png" alt="Facebook"></a><a href="#"><img src="imagenes/socials/insta.png" alt="Instagram"></a><a href="#"><img src="imagenes/socials/twitter.png" alt="Twitter"></a><a href="#"><img src="imagenes/socials/youtube.png" alt="Youtube"></a></p>
+				<p>Saco de Dados, S.L. B-12345678 - Barcelona, España</p>
+				<p>IT Academy - Jesús "Txus" López Gómez - 2019</p>
+			</div>
+		</footer>
+		<script></script>
+	</body>
+</html>
