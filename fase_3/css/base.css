@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+	background-color: #ffffcc;
+	color: #404040;
+	font: 16px/1.6 'Roboto', sans-serif;
+}
+header, .modal-content, nav, .dropdown-menu, footer {
+	background-color: #4B0082;
+}
+a[title="Inicio"] {
+	text-decoration: none;
+}
+a.dropdown-item:hover {
+	background-color: #ffffcc;
+	color: #404040 !important;
+}
+.card {
+	height: 100%;
+}
+.card img {
+	max-width: 230px;
+	max-height: 300px;
+}
+a.rolBooks {
+	text-decoration: none;
+	color: #4B0082;
+}
+/*Quita las flechas de los inputs numéricos*/
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  margin: 0; 
+}
+input[type=number] { -moz-appearance:textfield; }
